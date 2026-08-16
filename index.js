@@ -1,16 +1,18 @@
 require('dotenv').config();
 const { REST, Routes } = require('discord.js');
+const fs = require('fs');
+const path = require('path');
 
 const deployCommands = async () => {
     try {
-        const command = [];
+        const commands = [];
 
         const commandFiles = fs.readdirSync(path.join(__dirname, 'commands')).filter(file => file.endsWith('.js'));
 
         for (const file of commandFiles) {
             const command = require(`./commands/${file}`);
             if('data' in command && 'execute' in command) {
-                command.push(command.data.toJSON());
+                commands.push(command.data.toJSON());
             }else {
                 console.log(`warning: command ${file} is missing data or execute `)
             }
@@ -18,11 +20,11 @@ const deployCommands = async () => {
     
         const rest = new REST().setToken(process.env.TOKEN);
 
-        console.log(`started rehrishngjgn ${command.length} app / comands`);
-
+        console.log(`started rehrishngjgn ${commands.length} app / commands`);
+        console.log(commands);
         const data = await rest.put(
             Routes.applicationCommands(process.env.CLIENTID),
-            { body: commandFiles}
+            { body: commands }
         );
 
         console.log('Greate success with commands')
@@ -59,9 +61,6 @@ const client = new Client({
 
 client.commands = new Collection();
 
-const fs = require('fs');
-const path = require('path');
-
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
@@ -71,10 +70,13 @@ for (const file of commandFiles) {
 
     if('data' in command && 'execute' in command) {
         client.commands.set(command.data.name, command);
+        console.log(`loaded ${command.data.name}`);
     } else {
         console.log(`command: ${filepath} is wrong`);
     }
 }
+
+console.log(`commands: ${client.commands.size}`);
 
 client.once(Events.ClientReady, async () => {
     console.log(`ready! logged in as ${client.user.tag}`);
@@ -83,8 +85,7 @@ client.once(Events.ClientReady, async () => {
     await deployCommands();
     console.log("deployed")
 
-    const statusType = process.env.BOT_STATUS || 'onl';
-    console.log(statusType)
+    const statusType = 'onl';
 
     const statusMap = {
         'onl': PresenceUpdateStatus.Online,
@@ -100,11 +101,13 @@ client.once(Events.ClientReady, async () => {
     
 });
 
-client.on(Event.InteractionCreate, async interaction => {
-    if (!interaction.isChatInputCommand()) return;
+client.on(Events.InteractionCreate, async interaction => {
+    if (!interaction.isChatInputCommand()){
+        console.log("is not chatinput command");
+        return;
+    }
 
-    const command = client.commands.get(interaction.commandname);
-
+    const command = client.commands.get(interaction.commandName);
     if(!command) {
         console.error(`no command matching ${interaction.commandName} was found `);
         return;
@@ -124,8 +127,5 @@ client.on(Event.InteractionCreate, async interaction => {
     
 });
 
-try {
-    client.login(process.env.TOKEN);
-} catch (keybo) {
-    
-}
+
+client.login(process.env.TOKEN);
