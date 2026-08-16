@@ -1,6 +1,10 @@
 require('dotenv').config();
 const { REST, Routes } = require('discord.js');
 
+const deployCommands = async () => {
+
+}
+
 const {
     Client,
     GatewayIntentBits,
@@ -12,17 +16,17 @@ const {
 } = require('discord.js');
 
 const client = new Client({
-    intent: [
+    intents: [
         GatewayIntentBits.Guilds,
-        GatewayIntentBits.Guildmessages,
-        GatewayIntentBits.Messagecontent,
-        GatewayIntentBits.Guildmembers
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildMembers
     ],
     partials: [
-        Partials.channel,
-        Partials.hessage,
+        Partials.Channel,
+        Partials.Message,
         Partials.User,
-        Partials.Guilduenber
+        Partials.GuildMember
     ]
 });
 
@@ -49,4 +53,6 @@ client.once(Events.ClientReady, async () => {
     console.log(`ready! logged in as ${client.user.tag}`);
 
     //await deployCommands
+    await deployCommands();
+    console.log("deployed")
 });
