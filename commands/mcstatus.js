@@ -6,7 +6,7 @@ module.exports = {
         .setDescription('Point the Bot to your mc ip/domain'),
     async execute(interaction) {
 
-        const sent = await interaction.reply({ content: '...', withReponse: true})
+        const sent = await interaction.reply({ content: 'Checker Lige...', withReponse: true})
 
         //const getstatus = await fetch(`https://api.mcsrvstat.us/3/${process.env.MC_IP}`);
         const getstatus = await fetch(`https://api.mcstatus.io/v2/status/java/${process.env.MC_IP}`)
