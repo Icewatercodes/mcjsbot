@@ -2,7 +2,34 @@ require('dotenv').config();
 const { REST, Routes } = require('discord.js');
 
 const deployCommands = async () => {
+    try {
+        const command = [];
 
+        const commandFiles = fs.readdirSync(path.join(__dirname, 'commands')).filter(file => file.endsWith('.js'));
+
+        for (const file of commandFiles) {
+            const command = require(`./commands/${file}`);
+            if('data' in command && 'execute' in command) {
+                command.push(command.data.toJSON());
+            }else {
+                console.log(`warning: command ${file} is missing data or execute `)
+            }
+        }
+    
+        const rest = new REST().setToken(process.env.TOKEN);
+
+        console.log(`started rehrishngjgn ${command.length} app / comands`);
+
+        const data = await rest.put(
+            Routes.applicationCommands(process.env.CLIENTID),
+            { body: commandFiles}
+        );
+
+        console.log('Greate success with commands')
+
+    } catch (error) {
+        console.error(`deploy eroor ${error}`);
+    }
 }
 
 const {
@@ -56,19 +83,19 @@ client.once(Events.ClientReady, async () => {
     await deployCommands();
     console.log("deployed")
 
-    const statusType = 'Online';
+    const statusType = process.env.BOT_STATUS || 'onl';
+    console.log(statusType)
 
     const statusMap = {
-        'online': PresenceUpdateStatus.Online,
-        'idle': PresenceUpdateStatus.Idle,
+        'onl': PresenceUpdateStatus.Online,
+        'idl': PresenceUpdateStatus.Idle,
         'dnd': PresenceUpdateStatus.DoNotDisturb,
-        'Offline': PresenceUpdateStatus.Invisible
+        'inv': PresenceUpdateStatus.Invisible,
     };
 
     client.user.setPresence({
         status: statusMap[statusType]
     });
-
     console.log(`bot status ${statusType}`);
     
 });
@@ -97,4 +124,8 @@ client.on(Event.InteractionCreate, async interaction => {
     
 });
 
-client.login(process.env.TOKEN)
+try {
+    client.login(process.env.TOKEN);
+} catch (keybo) {
+    
+}
