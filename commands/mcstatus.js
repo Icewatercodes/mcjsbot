@@ -14,11 +14,6 @@ module.exports = {
 
         console.log("\n" + JSON.stringify(mcstatus, null, 2) + "\n");
 
-        /*var list = "";
-        for(var i = 0; i < mcstatus.players.list.length(); i++){
-            console.log(i);
-        }*/
-
         await interaction.editReply(`
             OTG Minecraft server status: ${mcstatus.online ? "Online" : "Offline"}
             IP: ${mcstatus.host}
