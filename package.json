@@ -1,0 +1,21 @@
+{
+  "name": "mcjsbot",
+  "version": "1.0.0",
+  "description": "Discord bot that tracks when a mc server is up and its url",
+  "repository": {
+    "type": "git",
+    "url": "mcjsbot"
+  },
+  "author": "william",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "notenv": "^2.0.3"
+  }
+}
