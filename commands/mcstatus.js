@@ -13,11 +13,15 @@ module.exports = {
         const mcstatus = await getstatus.json()
 
         console.log("\n" + JSON.stringify(mcstatus, null, 2) + "\n");
-
-        await interaction.editReply(`
-            OTG Minecraft server status: ${mcstatus.online ? "Online" : "Offline"}
-            IP: ${mcstatus.host}
-            Spiller: ${mcstatus.players.online} / ${mcstatus.players.max}
-        `);
+        if (!mcstatus.online) {
+            await interaction.editReply("OTH Minecraft server status: Offline");
+            return;
+        }else {
+            await interaction.editReply(`
+                OTG Minecraft server status: ${mcstatus.online ? "Online" : "Offline"}
+                IP: ${mcstatus.host}
+                Spiller: ${mcstatus.players.online} / ${mcstatus.players.max}
+            `);
+        }
     },
 };
