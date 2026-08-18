@@ -11,22 +11,23 @@ module.exports = {
         const getstatus = await fetch(`https://api.mcstatus.io/v2/status/java/${process.env.MC_IP}`);
         const mcstatus = await getstatus.json();
 
-        let reply = 
-            `OTG Minecraft server status:  ${mcstatus.online ? "Online" : "Offline"}\n` +
-            `IP:  ${mcstatus.host}\n` +
-            `Spiller:  ${mcstatus.players.online} / ${mcstatus.players.max}\n` +
-            `Spillere:\n`
-        ;
-
-        for(i = 0; i < mcstatus.players.online; i++) {
-            reply += mcstatus.players.list[i].name_clean + '\n';
         
-        }
             
         if (!mcstatus.online) {
             await interaction.editReply("OTH Minecraft server status: Offline");
             return;
         }else {
+            let reply = 
+                `OTG Minecraft server status:  ${mcstatus.online ? "Online" : "Offline"}\n` +
+                `IP:  ${mcstatus.host}\n` +
+                `Spiller:  ${mcstatus.players.online} / ${mcstatus.players.max}\n` +
+                `Spillere:\n`
+            ;
+
+            for(i = 0; i < mcstatus.players.online; i++) {
+                reply += mcstatus.players.list[i].name_clean + '\n';
+            
+            }
             await interaction.editReply({content: reply, ephemeral: true});
         }
     },
