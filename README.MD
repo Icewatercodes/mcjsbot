@@ -7,6 +7,7 @@ MC_IP: This is the ip that the bot uses when fetching status's from a minecraft 
 Example of a .env:
 
 TOKEN=iodhooæwihdlouhawldughliawuygd
+
 CLIENTID=91298729238729873918
 
 MC_IP=MCSERVER.server.mc
