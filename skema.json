@@ -1,0 +1,168 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "mandag 24",
+      "time": "08:00 - 09:45",
+      "course": "MU9-12 - 26OHXGD_2026-8 - Kommunikation og it - 1GD OTG",
+      "room": "MU9-12",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 25",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "torsdag 27",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 28",
+      "time": "08:00 - 09:45",
+      "course": "MU9-122, MU9-124 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-122, MU9-124",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Modul 4 - Forsøg"
+      ]
+    },
+    {
+      "day": "onsdag 26",
+      "time": "08:55 - 09:45",
+      "course": "MU9-131, MU9-165 - 26OHXGD_2026-8 - Biologi - 1GD OTG",
+      "room": "MU9-131, MU9-165",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Læs øvelsesvejledningen til Mikroskopi Du finder den i Learn/Biologi/celler og Liv/Mikroskopi/øvelsesvejledning",
+        "Mikroskopi- LabØ"
+      ]
+    },
+    {
+      "day": "mandag 24",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 25",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 26",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131, MU9-165 - 26OHXGD_2026-8 - Biologi - 1GD OTG",
+      "room": "MU9-131, MU9-165",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Mikroskopi- LabØ"
+      ]
+    },
+    {
+      "day": "torsdag 27",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Samfundsfag - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU-opstart"
+      ]
+    },
+    {
+      "day": "fredag 28",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "mandag 24",
+      "time": "12:05 - 13:50",
+      "course": "MU9-121 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-121",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Modul 3"
+      ]
+    },
+    {
+      "day": "tirsdag 25",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 26",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Papmøbler"
+      ]
+    },
+    {
+      "day": "torsdag 27",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 28",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "mandag 24",
+      "time": "14:00 - 15:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 26",
+      "time": "14:00 - 16:00",
+      "course": "- Brætspilscafé -  -",
+      "room": "",
+      "class_group": "",
+      "homework_notes": [
+        "Brætspilscafé"
+      ]
+    },
+    {
+      "day": "onsdag 26",
+      "time": "14:00 - 16:00",
+      "course": "MU9-8 - Fysikklub -  -",
+      "room": "MU9-8",
+      "class_group": "",
+      "homework_notes": [
+        "Fysikklub"
+      ]
+    }
+  ]
+}
