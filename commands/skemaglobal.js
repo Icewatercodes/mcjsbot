@@ -2,13 +2,20 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('skema')
-        .setDescription('Print vore skema'),
+        .setName('skemaglobal')
+        .setDescription('Print vore skema til alle')
+        .addIntegerOption(Option => 
+            Option.setName('dag')
+            .setDescription('Hvilken dag af ugen i 0-4')
+            .setRequired(false)
+            .setMinValue(0)
+            .setMaxValue(4)
+        ),
     async execute(interaction) {
-        const sent = await interaction.reply({ content: 'Finder skema', withResponse: true, ephemeral: true});
+        const sent = await interaction.reply({ content: 'Finder skema', withResponse: true});
 
+        var nowday = interaction.Option.getInterger('dag') || undefined;
         const skemajson = require("../skema.json");
-
         var skema = `Ugens skema ${skemajson.classes[0].day} til ${skemajson.classes[skemajson.classes.length-1].day}\n\n`;
 
         const days = [
@@ -19,11 +26,12 @@ module.exports = {
             "fredag "
         ];
 
-        var nowday = 0;
-        do {
-            nowday = new Date().getDay()-1;
-            console.log(nowday);
-        } while(nowday == 5 || nowday == 6);
+        if(nowday == undefined) {
+            do {
+                nowday = new Date().getDay()-1;
+                console.log(nowday);
+            } while(nowday == 5 || nowday == 6);
+        }
 
         console.log(nowday);
         const day = days[nowday];
