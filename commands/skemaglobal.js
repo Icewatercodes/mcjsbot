@@ -13,8 +13,12 @@ module.exports = {
         ),
     async execute(interaction) {
         const sent = await interaction.reply({ content: 'Finder skema', withResponse: true});
-
-        var nowday = interaction.Option.getInterger('dag') || undefined;
+        try {
+            var nowday = interaction.options.getInteger('dag') || undefined;
+        } catch (error) {
+            var nowday = undefined;
+        }
+        
         const skemajson = require("../skema.json");
         var skema = `Ugens skema ${skemajson.classes[0].day} til ${skemajson.classes[skemajson.classes.length-1].day}\n\n`;
 
@@ -27,10 +31,13 @@ module.exports = {
         ];
 
         if(nowday == undefined) {
-            do {
-                nowday = new Date().getDay()-1;
-                console.log(nowday);
-            } while(nowday == 5 || nowday == 6);
+            nowday = new Date().getDay();
+            console.log(nowday);
+            while(nowday == 5 || nowday == 6) {
+                nowday++;
+                if(nowday > 6) nowday = 0;
+            }
+            
         }
 
         console.log(nowday);
@@ -62,7 +69,11 @@ module.exports = {
 
         
 
-        await interaction.editReply({content: skema});
+        await interaction.editReply({content: skema}); 
         
     },
 };
+
+
+
+

@@ -20,10 +20,13 @@ module.exports = {
         ];
 
         var nowday = 0;
-        do {
+        if(nowday == undefined) {
             nowday = new Date().getDay()-1;
             console.log(nowday);
-        } while(nowday == 5 || nowday == 6);
+            while(nowday == 5 || nowday == 6) {
+                nowday++;
+            }
+        }
 
         console.log(nowday);
         const day = days[nowday];
