@@ -81,7 +81,7 @@ def parse_schedule_html(html_content):
 
     return json.dumps(schedule_data, indent=2, ensure_ascii=False)
 
-schehtml = open("test.html")
+schehtml = open("skema.html")
 print(parse_schedule_html(schehtml.read()))
 
 
