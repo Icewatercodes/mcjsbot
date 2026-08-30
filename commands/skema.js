@@ -3,14 +3,24 @@ const { SlashCommandBuilder } = require("discord.js");
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('skema')
-        .setDescription('Print vore skema'),
+        .setDescription('Print vore skema')
+        .addIntegerOption(Option => 
+            Option.setName('dag')
+            .setDescription('Hvilken dag af ugen i 0-4')
+            .setRequired(false)
+            .setMinValue(0)
+            .setMaxValue(4)
+        )
+        .addBooleanOption(option =>
+            option.setName('ephemeral')
+            .setDescription('Print til kun dig')
+            .setRequired(false)
+        ),
     async execute(interaction) {
         const sent = await interaction.reply({ content: 'Finder skema', withResponse: true, ephemeral: true});
 
-        const week = getWeek(new Date());
-        //console.log(`uge: ${week}`)
-        const skemajson = require(`../uge_${week}.json`);
-        
+        const skemajson = require("../skema.json");
+
         var skema = `Ugens skema ${skemajson.classes[0].day} til ${skemajson.classes[skemajson.classes.length-1].day}\n\n`;
 
         const days = [
@@ -21,14 +31,14 @@ module.exports = {
             "fredag "
         ];
 
-        var nowday = 0;
         if(nowday == undefined) {
             nowday = new Date().getDay()-1;
-            
-            //console.log(nowday);
+            console.log(nowday);
             while(nowday == 5 || nowday == 6) {
                 nowday++;
+                if(nowday > 6) nowday = 0;
             }
+            
         }
 
         //console.log(nowday);
@@ -60,21 +70,7 @@ module.exports = {
 
         
 
-        await interaction.editReply({content: skema});
+        await interaction.editReply({content: skema}); 
         
     },
 };
-
-function getWeek(d) {
-    
-    const dt = new Date(d); // Convert input string to Date object
-    const ys = new Date(dt.getFullYear(), 0, 1); // Get January 1st of the same year
-    const dp = Math.floor((dt - ys) / 86400000); // Calculate the days passed since January 1st (1000 * 60 * 60 * 24 = 86400000)
-    const sw = ys.getDay();
-    const so = (sw === 0) ? 6 : sw - 1;  // Adjust Sunday (0) to 6 (ISO starts Monday)
-    const wn = Math.floor((dp + so) / 7) + 1;
-
-    return wn;
-}
-
-
