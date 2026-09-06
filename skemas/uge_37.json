@@ -1,0 +1,149 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "mandag 7",
+      "time": "08:00 - 09:45",
+      "course": "MU9-120, MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-120, MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 8",
+      "time": "08:00 - 09:45",
+      "course": "MU9-12 - 26OHXGD_2026-8 - Kommunikation og it - 1GD OTG",
+      "room": "MU9-12",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 9",
+      "time": "08:00 - 09:45",
+      "course": "MU9-121 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-121",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_7"
+      ]
+    },
+    {
+      "day": "fredag 11",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "mandag 7",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 8",
+      "time": "09:55 - 11:40",
+      "course": "MU9-124 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-124",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_6"
+      ]
+    },
+    {
+      "day": "onsdag 9",
+      "time": "09:55 - 11:40",
+      "course": "MU9-120, MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-120, MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV"
+      ]
+    },
+    {
+      "day": "torsdag 10",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 11",
+      "time": "09:55 - 11:40",
+      "course": "MU9-124 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-124",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_9"
+      ]
+    },
+    {
+      "day": "mandag 7",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 8",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 9",
+      "time": "12:05 - 13:50",
+      "course": "MU9-12 - 26OHXGD_2026-8 - Kommunikation og it - 1GD OTG",
+      "room": "MU9-12",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "torsdag 10",
+      "time": "12:05 - 13:50",
+      "course": "MU9-110 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-110",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_8"
+      ]
+    },
+    {
+      "day": "fredag 11",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV"
+      ]
+    },
+    {
+      "day": "onsdag 9",
+      "time": "14:00 - 16:00",
+      "course": "MU9-8 - Skrivecamp/lektiecafé -  -",
+      "room": "MU9-8",
+      "class_group": "",
+      "homework_notes": [
+        "Skrivecamp/lektiecafé"
+      ]
+    },
+    {
+      "day": "onsdag 9",
+      "time": "14:15 - 16:00",
+      "course": "MU9-29 - UNF Matematikklub - frivilligt -  -",
+      "room": "MU9-29",
+      "class_group": "",
+      "homework_notes": [
+        "Er du interesseret i matematik og nysgerrig på hvad matematik omhandler udover emnerne i gymnasiet? Så er du velkommen til at tage et kig forbi UNF Matematikklub. Her vil du/I få en introduktion til et matematisk emne formidlet af studerende på SDU (fra UNF Odense); to af de studerende er endda tidligere studenter fra OTG! Spørgsmål til bl.a. studiemiljøet på SDU er også velkomne i UNF Matematikklub. Har du spørgsmål til UNF Matematikklub, er du velkommen til at spørge matematiklærer Kristoffer; fx på kds@otg.dk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "mandag 14",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 15",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 16",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131, MU9-165 - 26OHXGD_2026-8 - Biologi - 1GD OTG",
+      "room": "MU9-131, MU9-165",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV Osmose LabØ"
+      ]
+    },
+    {
+      "day": "torsdag 17",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 18",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "mandag 14",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Biologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Læ s. 21-27 i BIU om cellemembranen og transportprocesser. Aflevere Journal om DNA fra løg",
+        "NV Membrantransport"
+      ]
+    },
+    {
+      "day": "tirsdag 15",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 16",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "torsdag 17",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "torsdag 17",
+      "time": "09:55 - 11:40",
+      "course": "MU9-104 - Elevrådsmøde -  -",
+      "room": "MU9-104",
+      "class_group": "",
+      "homework_notes": [
+        "Elevrådsmøde"
+      ]
+    },
+    {
+      "day": "fredag 18",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "mandag 14",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 15",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV"
+      ]
+    },
+    {
+      "day": "onsdag 16",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "torsdag 17",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "fredag 18",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Samfundsfag - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "mandag 14",
+      "time": "14:00 - 15:45",
+      "course": "MU9-38 - 26OHXGD_2026-8 - Studieaktivitet HTX - 1GD OTG",
+      "room": "MU9-38",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Fællesskabende aktivitet"
+      ]
+    },
+    {
+      "day": "onsdag 16",
+      "time": "14:00 - 16:00",
+      "course": "Kantinen - Brætspilscafé -  -",
+      "room": "Kantinen",
+      "class_group": "",
+      "homework_notes": [
+        "Vi hygger os med brætspil og socialt samvær i kantinen. Man kan spille nogle af brætspillene fra brætspilsskabet (mellem kantinen og søjlehallen) og de mange brætspil fra kælderen. I er også velkomne til at tage egne brætspil/kortspil med - konsolspil er også velkomne (vi hjælper gerne med at tilslutte jeres spillekonsol til skærmen i kantinen). Spørgsmål ang. brætspilscaféen kan rettes til lærerne, Kristoffer (kds@otg) og Søren (sse@otg.dk)"
+      ]
+    },
+    {
+      "day": "onsdag 16",
+      "time": "14:00 - 16:00",
+      "course": "MU9-29 - Fysikklub -  -",
+      "room": "MU9-29",
+      "class_group": "",
+      "homework_notes": [
+        "Fysikklub"
+      ]
+    },
+    {
+      "day": "onsdag 16",
+      "time": "14:00 - 16:00",
+      "course": "MU9-8 - Skrivecamp/lektiecafé -  -",
+      "room": "MU9-8",
+      "class_group": "",
+      "homework_notes": [
+        "Skrivecamp/lektiecafé"
+      ]
+    },
+    {
+      "day": "fredag 18",
+      "time": "14:00 - 17:00",
+      "course": "- Fredagscafé -  -",
+      "room": "",
+      "class_group": "",
+      "homework_notes": [
+        "Fredagscafé"
+      ]
+    }
+  ]
+}
