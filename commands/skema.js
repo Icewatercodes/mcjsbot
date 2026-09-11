@@ -66,7 +66,6 @@ module.exports = {
             if(skemajson.classes[k].day.slice(0,7) != day) continue;
             correctClasses.push(k);
 
-            }
 
             skema +=
             `***Dag: ${skemajson.classes[correctClasses[0]].day}***\n`;
