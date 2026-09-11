@@ -1,2 +1,4 @@
 .env
 test_cmds/*
+test_cmds
+in_skema.html
