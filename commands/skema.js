@@ -24,18 +24,46 @@ module.exports = {
             .setRequired(false)
         ),
     async execute(interaction) {
-        try {
-            var nowday = interaction.options.getInteger('dag') || undefined;
-            var ephe = interaction.options.getBoolean('ephemeral');
-        } catch (error) {
-            var ephe = true;
-            var nowday = undefined;
-        }
+        var ephe = interaction.options.getBoolean('ephemeral');
+        if(ephe == null || ephe == undefined) ephe = true;
         const sent = await interaction.reply({ content: 'Finder skema', withResponse: true, ephemeral: ephe});
         
-        
-        const skemajson = require("../skema.json");
-        var skema = `Ugens skema ${skemajson.classes[0].day} til ${skemajson.classes[skemajson.classes.length-1].day}\n\n`;
+        try {
+            var nowday = interaction.options.getInteger('dag');
+
+            console.log(`nowday = ${nowday}`);
+
+            if(nowday == undefined || nowday == null) {
+                nowday = new Date().getDay();
+                console.log(nowday);
+                while(nowday == 5 || nowday == 6) {
+                    nowday++;
+                    if(nowday > 6) nowday = 0;
+                }
+                
+            }
+
+            Date.prototype.getWeek = function() {  // have to add getWeek()
+                const date = new Date(this.getTime());
+                date.setHours(0, 0, 0, 0);
+                // Thursday in current week decides the year
+                date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
+                // January 4 is always in week 1
+                const week1 = new Date(date.getFullYear(), 0, 4);
+                // Adjust to Thursday in week 1 and count number of weeks from date to week1
+                return 1 + Math.round(((date.getTime() - week1.getTime()) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);
+            };
+
+            var uge = interaction.options.getInteger('uge');
+
+            if(uge == null || uge == undefined) {
+                uge = new Date().getWeek()
+            }
+
+            console.log(`uge = ${uge}`);
+
+            const skemajson = require(`../skemas//uge_${uge}.json`);
+            var skema = `Uge: ${uge}\n\n`;
 
             const days = [
                 "mandag ",
@@ -45,32 +73,16 @@ module.exports = {
                 "fredag "
             ];
 
-        if(nowday == undefined) {
-            nowday = new Date().getDay();
-            console.log(nowday);
-            while(nowday == 5 || nowday == 6) {
-                nowday++;
-                if(nowday > 6) nowday = 0;
+            const day = days[nowday];
+            var correctClasses = [];
+            for(const k in skemajson.classes) {
+                if(skemajson.classes[k].day.slice(0,7) != day) continue;
+                correctClasses.push(k);
             }
-            
-        }
-
-        console.log(nowday);
-        const day = days[nowday];
-        console.log(day);
-        var correctClasses = [];
-        for(const k in skemajson.classes) {
-            //klass = skemajson.classes[k];
-            //console.log(`k: ${k}`)
-            //console.log(`${skemajson.classes[k].day.slice(0,7)} == ${day}`)
-            if(skemajson.classes[k].day.slice(0,7) != day) continue;
-            correctClasses.push(k);
-
 
             skema +=
             `***Dag: ${skemajson.classes[correctClasses[0]].day}***\n`;
             for(const i in correctClasses){
-                //console.log()
                 if(skemajson.classes[correctClasses[i]].time != undefined){
                     skema += `    **Tid:** ${skemajson.classes[correctClasses[i]].time}\n`;
                     skema += `    **Fag:** ${skemajson.classes[correctClasses[i]].course.split(" - ")[2]}\n`;
@@ -81,11 +93,13 @@ module.exports = {
 
 
 
-
+            //send result
+            await interaction.editReply({content: skema});
+        } catch (error) {
+            console.log(error);
+            await interaction.editReply({content: "There was an error"});
         }
-        //send result
-        await interaction.editReply({content: skema});
-    },
+    }
 };
 
 
