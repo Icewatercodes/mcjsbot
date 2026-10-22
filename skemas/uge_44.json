@@ -1,0 +1,183 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "mandag 26",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU - portfolioopsamling"
+      ]
+    },
+    {
+      "day": "tirsdag 27",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 28",
+      "time": "08:00 - 16:00",
+      "course": "MU9-131, MU9-132 - 26OHXGD_2026-8 - Diverse HTX - 1GD OTG",
+      "room": "MU9-131, MU9-132",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV- og PU prøver"
+      ]
+    },
+    {
+      "day": "torsdag 29",
+      "time": "08:00 - 16:00",
+      "course": "MU9-131, MU9-132 - 26OHXGD_2026-8 - Diverse HTX - 1GD OTG",
+      "room": "MU9-131, MU9-132",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV- og PU prøver"
+      ]
+    },
+    {
+      "day": "fredag 30",
+      "time": "08:00 - 09:45",
+      "course": "MU9-12 - 26OHXGD_2026-8 - Kommunikation og it - 1GD OTG",
+      "room": "MU9-12",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 28",
+      "time": "09:10 - 09:30",
+      "course": "MU9-132 - 26OHXGD_2026-8 - Produktudvikling - 1GD OTG",
+      "room": "MU9-132",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Mundtlig prøve"
+      ]
+    },
+    {
+      "day": "onsdag 28",
+      "time": "09:10 - 09:10",
+      "course": "MU9-132 - 26OHXGD_2026-8 - Produktudvikling - 1GD OTG",
+      "room": "MU9-132",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Forberedelse til Mundtlig prøve - 26OHXGD - William Westy Johannsen"
+      ]
+    },
+    {
+      "day": "mandag 26",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_14 - portfolio-opsamling"
+      ]
+    },
+    {
+      "day": "tirsdag 27",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 27",
+      "time": "09:55 - 11:40",
+      "course": "MU9-104 - Elevrådsmøde -  -",
+      "room": "MU9-104",
+      "class_group": "",
+      "homework_notes": [
+        "Elevrådsmøde"
+      ]
+    },
+    {
+      "day": "fredag 30",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "torsdag 29",
+      "time": "10:20 - 10:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Naturvidenskabeligt grundforløb - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Mundtlig prøve"
+      ]
+    },
+    {
+      "day": "torsdag 29",
+      "time": "10:20 - 10:20",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Naturvidenskabeligt grundforløb - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Forberedelse til Mundtlig prøve - 26OHXGD - William Westy Johannsen"
+      ]
+    },
+    {
+      "day": "mandag 26",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 27",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 30",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Studieaktivitet HTX - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Foredrag v/Signe Søndergaard: Unges trivsel og alkohol/stoffer"
+      ]
+    },
+    {
+      "day": "onsdag 28",
+      "time": "14:00 - 16:00",
+      "course": "MU9-32 - Skrivecamp/lektiecafé -  -",
+      "room": "MU9-32",
+      "class_group": "",
+      "homework_notes": [
+        "Skrivecamp/lektiecafé"
+      ]
+    },
+    {
+      "day": "onsdag 28",
+      "time": "14:15 - 16:00",
+      "course": "MU9-29 - UNF Matematikklub - frivilligt -  -",
+      "room": "MU9-29",
+      "class_group": "",
+      "homework_notes": [
+        "Er du interesseret i matematik og nysgerrig på hvad matematik omhandler udover emnerne i gymnasiet? Så er du velkommen til at tage et kig forbi UNF Matematikklub. Her vil du/I få en introduktion til et matematisk emne formidlet af studerende på SDU (fra UNF Odense); to af de studerende er endda tidligere studenter fra OTG! Spørgsmål til bl.a. studiemiljøet på SDU er også velkomne i UNF Matematikklub. Har du spørgsmål til UNF Matematikklub, er du velkommen til at spørge matematiklærer Kristoffer; fx på kds@otg.dk"
+      ]
+    },
+    {
+      "day": "fredag 30",
+      "time": "14:00 - 17:00",
+      "course": "- Fredagscafé -  -",
+      "room": "",
+      "class_group": "",
+      "homework_notes": [
+        "Fredagscafé"
+      ]
+    }
+  ]
+}

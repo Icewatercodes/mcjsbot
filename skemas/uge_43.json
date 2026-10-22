@@ -1,0 +1,178 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "mandag 19",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "tirsdag 20",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Dansk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 21",
+      "time": "08:00 - 15:45",
+      "course": "- Virtuel undervisning -  -",
+      "room": "",
+      "class_group": "",
+      "homework_notes": [
+        "Virtuel undervisning"
+      ]
+    },
+    {
+      "day": "onsdag 21",
+      "time": "08:00 - 09:45",
+      "course": "Virtuelt - 26OHXGD_2026-8 - Kommunikation og it - 1GD OTG",
+      "room": "Virtuelt",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "Hej Alle I skal arbejde asynkront i dette modul. Det betyder, at I selv bestemmer hvornår i vil arbejde modulets antal minutter. Det eneste krav er at arbejdet er foretaget inden vi har næste modul. Husk at I har lavet en plan for hvad I skal nå i jeres projekter - så få det gjort. Powerpoint ligger på learn (se efter M3) og bliver synlig onsdag morgen. Jeg har forsøgt at indtale powerpoint, men min PC vil ikke registrere mikrofonen. Der er i stedet skrevet noter til hver slide, hvor mit manus er skrevet ud. God fornøjelse. Vi ses. Mino",
+        "Asynkron Virtuel KIT modul"
+      ]
+    },
+    {
+      "day": "torsdag 22",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "fredag 23",
+      "time": "08:00 - 09:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU - portfolioopsamling"
+      ]
+    },
+    {
+      "day": "mandag 19",
+      "time": "09:15 - 09:45",
+      "course": "MU7-z21 - Fællessamling -  -",
+      "room": "MU7-z21",
+      "class_group": "",
+      "homework_notes": [
+        "Fællessamling"
+      ]
+    },
+    {
+      "day": "mandag 19",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Samfundsfag - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "tirsdag 20",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Engelsk - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": []
+    },
+    {
+      "day": "onsdag 21",
+      "time": "09:55 - 11:40",
+      "course": "Virtuelt - 26OHXGD_2026-8 - Matematik - 1GD OTG",
+      "room": "Virtuelt",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "https://teams.microsoft.com/meet/3893477588178454?p=sWzi2lkfjGMv7PwXMl"
+      ]
+    },
+    {
+      "day": "torsdag 22",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Samfundsfag - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU - portfolioopsamling"
+      ]
+    },
+    {
+      "day": "fredag 23",
+      "time": "09:55 - 11:40",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV portfolioopsamling"
+      ]
+    },
+    {
+      "day": "mandag 19",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Biologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV Sidste modul i Biologi NV"
+      ]
+    },
+    {
+      "day": "tirsdag 20",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Teknologi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "PU"
+      ]
+    },
+    {
+      "day": "torsdag 22",
+      "time": "12:05 - 13:50",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV"
+      ]
+    },
+    {
+      "day": "fredag 23",
+      "time": "12:05 - 13:50",
+      "course": "MU9-121, MU9-122 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-121, MU9-122",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_13 Konkurrence"
+      ]
+    },
+    {
+      "day": "mandag 19",
+      "time": "14:00 - 15:45",
+      "course": "MU9-122, MU9-124 - 26OHXGD_2026-8 - Fysik - 1GD OTG",
+      "room": "MU9-122, MU9-124",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV_12 Forsøg"
+      ]
+    },
+    {
+      "day": "tirsdag 20",
+      "time": "14:00 - 15:45",
+      "course": "MU9-131 - 26OHXGD_2026-8 - Kemi - 1GD OTG",
+      "room": "MU9-131",
+      "class_group": "1GD OTG",
+      "homework_notes": [
+        "NV"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "student": "William Westy Johannsen",
+  "classes": [
+    {
+      "day": "onsdag 11",
+      "time": "14:00 - 16:00",
+      "course": "MU9-32 - Skrivecamp/lektiecafé -  -",
+      "room": "MU9-32",
+      "class_group": "",
+      "homework_notes": [
+        "Skrivecamp/lektiecafé"
+      ]
+    }
+  ]
+}
